@@ -4,15 +4,6 @@ exports.handler = async (event, context) => {
       try {
 
         // Process the GET request as needed
-        .on("data", function (row) {
-            data.push(row);
-        })
-        .on("error", function (error) {
-        })
-        .on("end", function () {
-          console.log("finished");
-        });
-      
         //const data = require('./db.json');
   
         const helloWorld = {
