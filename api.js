@@ -12,7 +12,7 @@ exports.handler = async (event, context) => {
         // Return the data as the response
         return {
           statusCode: 200,
-          body: JSON.stringify(wordList[Math.floor(Math.random()*wordList.length)]),
+          body: JSON.stringify(wordList[Math.floor(Math.random()*wordList.length)][0]),
         };
       } catch (error) {
         // Return an error response if there was an issue processing the request
